@@ -1,0 +1,463 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+        <!-- Facebook sharing information tags -->
+        <meta property="og:title" content="*|MC:SUBJECT|*" />
+        
+        <title>*|MC:SUBJECT|*</title>
+		<style type="text/css">
+			/* Client-specific Styles */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+			body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+
+			/* Reset Styles */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table td{border-collapse:collapse;}
+			#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* Template Styles */
+			
+            /*fonts */
+            @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;700&display=swap');
+
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COMMON PAGE ELEMENTS /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Page
+			* @section background color
+			* @tip Set the background color for your email. You may want to choose one that matches your company's branding.
+			* @theme page
+			*/
+			body, #backgroundTable{
+				/*@editable*/ background-color:#FAFAFA;
+			}
+
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/ border: 1px solid #DDDDDD;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1, .h1{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family: 'Anton', sans-serif;
+				/*@editable*/ font-size:34px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:center;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2, .h2{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family: 'Anton', sans-serif;
+				/*@editable*/ font-size:30px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:center;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3, .h3{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family: 'Anton', sans-serif;
+				/*@editable*/ font-size:26px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:center;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4, .h4{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family: 'Anton', sans-serif;
+				/*@editable*/ font-size:22px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:center;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: HEADER /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and border for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-bottom:0;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#202020;
+				/*@editable*/ font-family: 'Roboto', sans-serif;
+				/*@editable*/ font-size:34px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding:0;
+				/*@editable*/ text-align:center;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:600px !important;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color for your email's body area.
+			*/
+			#templateContainer, .bodyContent{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family: 'Roboto', sans-serif;
+				/*@editable*/ font-size:17px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:center;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Override */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Body
+			* @section button style
+			* @tip Set the styling for your email's button. Choose a style that draws attention.
+			*/
+			.templateButton{
+				-moz-border-radius:3px;
+				-webkit-border-radius:3px;
+				/*@editable*/ background-color:#336699;
+				/*@editable*/ border:0;
+				border-collapse:separate !important;
+				border-radius:3px;
+			}
+
+			/**
+			* @tab Body
+			* @section button style
+			* @tip Set the styling for your email's button. Choose a style that draws attention.
+			*/
+			.templateButton, .templateButton a:link, .templateButton a:visited, /* Yahoo! Mail Override */ .templateButton a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#FFFFFF;
+				/*@editable*/ font-family: 'Roboto', sans-serif;
+				/*@editable*/ font-size:15px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ letter-spacing:-.5px;
+				/*@editable*/ line-height:100%;
+				text-align:center;
+				text-decoration:none;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: FOOTER /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and top border for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-top:0;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent div{
+				/*@editable*/ color:#707070;
+				/*@editable*/ font-family: 'Roboto', sans-serif;
+				/*@editable*/ font-size:12px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:center;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent div a:link, .footerContent div a:visited, /* Yahoo! Mail Override */ .footerContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.footerContent img{
+				display:inline;
+			}
+
+			/**
+			* @tab Footer
+			* @section utility bar style
+			* @tip Set the background color and border for your email's footer utility bar.
+			* @theme footer
+			*/
+			#utility{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border:0;
+			}
+
+			/**
+			* @tab Footer
+			* @section utility bar style
+			* @tip Set the background color and border for your email's footer utility bar.
+			*/
+			#utility div{
+				/*@editable*/ text-align:center;
+			}
+
+			#monkeyRewards img{
+				max-width:190px;
+			}
+		</style>
+	</head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable">
+            	<tr>
+                	<td align="center" valign="top">
+                        <!-- // Begin Template Preheader \\ -->
+                        <table border="0" cellpadding="10" cellspacing="0" width="600" id="templatePreheader">
+                            <tr>
+                                <td valign="top" class="preheaderContent">
+                                
+                                	<!-- // Begin Module: Standard Preheader \ -->
+                                    <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                    	<tr>
+                                        	<td valign="top">
+                                            	<div mc:edit="std_preheader_content">
+                                                	 You can vote for you favorites!
+                                                </div>
+                                            </td>
+                                            <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+											<td valign="top" width="190">
+                                            </td>
+											<!-- *|END:IF|* -->
+                                        </tr>
+                                    </table>
+                                	<!-- // End Module: Standard Preheader \ -->
+                                
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // End Template Preheader \\ -->
+                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Header \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
+                                        <tr>
+                                            <td class="headerContent">
+                                            
+                                            	<!-- // Begin Module: Standard Header Image \\ -->
+                                            	<img src="https://i.ibb.co/tZG7gYh/hh-Logo-Black.png" alt="hh-Logo-Black"  style="max-width:650px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                            	<!-- // End Module: Standard Header Image \\ -->
+                                            
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Header \\ -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Body \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
+                                    	<tr>
+                                            <td valign="top" class="bodyContent">
+                                
+                                                <!-- // Begin Module: Standard Postcard Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr mc:repeatable>
+                                                        <td valign="top">
+                                                            <img src="https://i.ibb.co/R2WLS59/HT-Hemp-Cup-Logo-GOLD-Isolated-2048x1266.png" alt="HT-Hemp-Cup-Logo-GOLD-Isolated-2048x1266" style="max-width:650px;" mc:label="postcard_image" mc:edit="postcard_image" mc:allowtext />
+                                                            <div mc:edit="std_content00">
+                                                                <h2 class="h2" style="margin-top: 30px;">It’s official: We’ll be competing (again) at the <a href="https://www.cannabiscup.com/hemp-cup-2021/" style="text-decoration: underline;">High Times Hemp Cup 2021.</a></h2>
+																<h2 class="h2" style="margin-bottom: 20px;">And we need your support!</h2>
+                                                                <div>Last year, we won 2nd and 3rd place with our Zero G and Blunts.</div> 
+																<div>We wrote about it <a href="https://hometownherocbd.com/blogs/news/our-high-times-hemp-cup-2020-experience">here.</a></div>
+                                                                <br />
+                                                                This year, we’re going with more options, all Delta 8:
+																<br />
+                                                                <ul style="list-style:none;">
+																	<li><a href="https://hometownherocbd.com/products/delta-8-thc-tincture-berry?_pos=1&_sid=45fca36e6&_ss=r" target="_blank">Berry Tincture</a></li>
+																	<li><a href="https://hometownherocbd.com/products/delta-8-capsules?_pos=1&_sid=1b4642621&_ss=r" target="_blank">Gel Caps</a></li>
+																	<li><a href="https://hometownherocbd.com/products/zero-g-delta-8-flower?_pos=1&_sid=7ed4842d3&_ss=r" target="_blank">Zero G Delta 8</a></li>
+																	<li><a href="https://hometownherocbd.com/products/delta-8-thc-blunt?_pos=1&_sid=896bbdeb2&_ss=r" target="_blank">Blunts</a></li>
+																	<li><a href="https://hometownherocbd.com/products/delta-8-thc-rainbow-concentrate?_pos=1&_sid=459c4eafb&_ss=r" target="_blank">Concentrate</a></li>
+																	<li><a href="https://hometownherocbd.com/products/delta-8-thc-gummies" target="_blank">Blueberry Gummies</a></li>
+																	<li><a href="https://hometownherocbd.com/products/delta-8-roll-on?_pos=1&_sid=ba68a2e1f&_ss=r" target="_blank">Topical Roll-On</a></li>
+																	<li>Delta White Disposables (out of stock)</li>
+																	<li>NEW Mango + Strawberry (yet to be released, stay tuned!)</li>
+																</ul>
+																<div style="font-weight: bold; font-size:19px; margin-bottom:10px; color:black;">Here is how to show your support:</div> 
+																Simply post a photo of your favorite Delta 8 products from the list above on your favorite social media platforms, and tag  
+																<div style="font-weight: bold; font-size:19px; color:blue;">@hometownherocbd and @hightimesmagazine.</div>
+																<div style="font-weight: bold; font-size:19px; margin-top:5px; color:blue;">Don’t forget to use hashtags #CannabisCup #HempCup #hightimescup</div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Standard Postcard Content \\ -->
+                                                
+                                            </td>
+                                        </tr>
+										<table border="0" cellpadding="20" cellspacing="0" width="100%">
+											<td valign="top" width="280" class="leftColumnContent">
+									
+												<!-- // Begin Module: Top Image with Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%">
+													<tr>
+														<td valign="top"><img src="https://i.ibb.co/0GxhdPT/High-Times-Hemp-Cup-Silver-2020.png" alt="High-Times-Hemp-Cup-Silver-2020" style="max-width:260px;"/>
+														</td>
+													</tr>
+												</table>
+											
+											</td>
+											<td valign="top" width="280" class="rightColumnContent">
+											
+												<table border="0" cellpadding="20" cellspacing="0" width="100%">
+													<tr>
+														<td valign="top"><img src="https://i.ibb.co/S7VHR0V/High-Times-Hemp-Cup-Bronze-2020.png" alt="High-Times-Hemp-Cup-Bronze-2020" style="max-width:260px;"/>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</table>
+                                    </table>
+                                    <!-- // End Template Body \\ -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Footer \\ -->
+                                	<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateFooter">
+                                    	<tr>
+                                        	<td valign="top" class="footerContent">
+                                            
+                                                <!-- // Begin Module: Standard Footer \\ -->
+                                                <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td colspan="2" valign="middle" id="utility">
+                                                            <div mc:edit="std_utility">
+                                                                No longer want to receive these emails? {% unsubscribe %}.
+                                                            </div>
+															<div>
+																{{ organization.name }} {{ organization.full_address }}
+															</div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Standard Footer \\ -->
+                                            
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Footer \\ -->
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
